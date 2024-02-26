@@ -1,0 +1,77 @@
+#identify types
+type(4) #int
+type(4.0) #float
+type('4') #string
+type(False) #bool
+
+#convert types
+float(2) #2.0
+float('2') #2.0
+int(2.0) #2
+string(2) #'2'
+bool(1) #True
+bool(2) #False
+
+#Indexing, Slicing, striding
+name= 'Rebekah'
+name[0] #'R'
+name[-1] #'h'
+len(name) #get length of string
+name[0:3] # 'Reb"
+name[4:7] # 'kah'
+name[::2} # 'Rbkh'
+name[1:7:2] # 'eea'
+
+#string functions
+name= name+ 'Smith'
+upper= name.upper()
+lower= name.lower()
+new= name.replace('Rebekah', 'Sarah')
+split= name.split() #will split at space
+name.find('Smi') #returns starting index of phrase, if not there returns -1
+
+#lists, ordered collection of values
+
+letters= ['a','b','c','d'] #create a list
+letters.append('e') #add an element to end of list
+new_letters= letters.copy() #makes a copy
+letters.count(a) #counts how many times a specific elemnt occurs
+del letters[2] #removes element at index 2
+more_letters = ['f','g']
+letters.extend(more_letters) #used to add multiple elemnts to a list
+letters.insert(2, 'z') #inserts element at that index
+letters[0] =z #modify element at that index
+letters.remove(b) #removes the element
+letters.reverse() #reverses order
+print(letters[1:4] #slicing, prints element from index 1 to 3
+letters.sort(reverse=True) #sorts in descending order
+letters.sort() #sorts in ascending order
+
+#dictionaries
+
+dict={ 'key1' : 'value1', 'key2' : 'value2'} #create a dictionary
+dict = dict({'key1' : 'value1', 'key2' : 'value2'}) #also creates a dictionaty
+dict.clear() #empties dict
+dict['key'] = 'value' #adds if not already key, or replaces if key is there
+del dict[key] #removes key-value pair
+if 'key' in dict:
+  print ('exists in dict') #check if a key is in dict
+dict.keys() #retieves all keys
+dict.update({'key':'value'}) #merges new dict into old dict
+dict.values() #retrieves all values
+
+#Sets, undordered collection of unique elements
+
+set={1,2,2,3,4} #creates set, one 2 will be deleted
+#uses same add, clear, copy, remove commands
+set.discard(x) #removes element x, no key error if not found
+set1.issubest(set2) #checks if its subset of another set, returns true if it is
+set1.superset(set2) #checks if its superset of another set
+set1.union(set2)
+set1.intersection(set2)
+set.difference(set2)
+set1.symmetrics_difference(set2)
+set.update(['a','b']) #replaces a with b, maintains uniqueness
+
+
+
