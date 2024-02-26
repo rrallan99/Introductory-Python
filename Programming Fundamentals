@@ -1,0 +1,59 @@
+#If, elif, else statements
+
+if x>5 and x<7:       #condition 1
+  print('x is 6')
+elif x=5              #condition 2
+  print('x is 5') 
+else:                 #if no condition is tue
+  print('x is not 6')
+
+#could also use an OR statement like if x<2 or x>4
+
+#define a function
+def function_name(parameters): 
+function_name(arguments) #execute code with a function
+
+def greet(name: print('Hello', name)
+greet('Sarah')
+
+def add(a,b): return a + b # return is keyword used to send a value back from a function to its caller
+add(3,5)
+
+#Class definition
+class ClassName: #add attributes and methods
+
+class Person:
+  def _init_(self, name, age):
+      self.name = name
+      slef.age= age
+
+#Object creation
+object_name=ClassName(arguments)
+
+person1 = Person('Sarah', 24)
+
+
+
+#For Loop, exectues code for specifc amount of iterations
+for num in range (1,10):
+  print(name)
+#loop controls
+for num in range(1,6):
+  if num== 3:
+    break            #breaks loop prematurely
+  print(num)
+
+for num in range(1,6)
+  if num == 3:
+    continue       #skips current iteration and moves to next
+  print(num)
+
+#While Loop, executes code until a speicfic condition is satisfies
+count=0 while count<5
+  print(count) count+=1
+
+#random things to know
+x==y #checks if two values are equal
+>= greater than or equal to
+< less than
+!= is not equal
